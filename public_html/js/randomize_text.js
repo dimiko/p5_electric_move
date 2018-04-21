@@ -6,3 +6,13 @@ $('#hello').randomizeText({
     randomTime: 50,
     randomLetters: [],
 });
+
+var distance = $('#hello').offset().top,
+    $window = $(window);
+
+$window.scroll(function() {
+    if ( $window.scrollTop() >= distance ) {
+        // Your div has reached the top
+       
+    }
+});
