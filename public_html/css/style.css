@@ -21,7 +21,12 @@ body {
     background-size: cover;
     margin: 0;
     padding: 0;
+    z-index: -1;
 }
 #hello{
     color: white;
+    z-index: 0;
+    text-align: center;
+    font-size: 48;
+    margin-top: 23%;
 }
