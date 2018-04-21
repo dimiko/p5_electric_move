@@ -64,7 +64,6 @@ function touch() {
 
 
 function wheel(event) {
-    event.preventDefault;
     var dx = event.deltaX;
     var dy = event.deltaY;
 
