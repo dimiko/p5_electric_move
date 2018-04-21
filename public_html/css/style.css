@@ -1,0 +1,27 @@
+body {
+    //background-color: #000000;
+    min-height: 15000px;
+}
+#msg{
+    position: fixed;
+    padding-top: 15%;
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    width: 500px;
+    height: 500px;
+}
+#pfive{
+    position: fixed;
+    width:100%;
+    height:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+#hello{
+    color: white;
+}
